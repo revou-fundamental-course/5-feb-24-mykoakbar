@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Konversi Suhu C° ke F°</title>
+    <script src="./js/script.js"></script>
+</head>
+<body>
+    <div class="container">
+            <form id="form_fahrenheit">
+                <h1>Konversi Suhu C° dan F°</h1>
+                <h4>Masukkan suhu F° ke kotak dibawah, lalu klik tombol konversi untuk mendapatkan hasil konversi dalam bentuk C°</h4>
+                <div class="kotak-1">
+                    <h2>Suhu Fahrenheit°</h2>
+                    <input id="fahrenheit" step="0.01" class="input-field" type="number" name="kotak1" required>
+                </div>
+                <div class="button">
+                    <button type="submit" id="button_fahrenheit">KONVERSI</button>
+                    <div class="sekat"></div>
+                    <button type="reset">RESET</button>
+                </div>
+            </form>
+        <div class="kotak-1">
+            <h2>Suhu Celsius°</h2>
+            <div class="bg-hasil">
+                <p id="hasil"></p>
+            </div>
+        </div>
+        <div class="button">
+            <a href="index.html">RESERVE</a>
+        </div>
+    
+        <div class="kotak-1">
+            <h2>Cara Kalkulasi</h2>
+            <div class="bg-hasil">
+                <p id="hasil-cara">cara konversi adalah</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
